@@ -1,0 +1,11 @@
+type: Item
+
+name: Carbon
+description: Uses in material processing.
+
+color: 3C4044FF
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]

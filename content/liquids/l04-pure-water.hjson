@@ -1,0 +1,19 @@
+type: Liquid
+
+name: Pure Water
+description: An useable distilled water.
+
+gas: true
+color: 6D84E0FF
+gasColor: 6D84E0FF
+barColor: 6D84E0FF
+lightColor: 6D84E0FF
+
+flammability: 0
+temperature: 0.4
+heatCapacity: 0.3
+viscosity: 0.5
+
+coolant: true
+
+research: i01-core-aeris

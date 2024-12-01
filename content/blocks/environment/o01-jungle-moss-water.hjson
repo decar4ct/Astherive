@@ -1,0 +1,10 @@
+type: Floor
+name: Jungle Moss Water
+
+variants: 4
+speedMultiplier: 0.7
+liquidDrop: l01-moss-water
+liquidMultiplier: 1
+isLiquid: true
+cacheLayer: water
+albedo: 0.5

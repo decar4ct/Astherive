@@ -1,0 +1,16 @@
+type: Sorter
+name: Filter
+description: Recovered technology. Recognize specific item through unknown process and pass them through.
+
+health: 30
+category: distribution
+requirements: [
+  k01-quartz/5
+  k04-silver/3
+]
+
+research: c04-splitter
+researchCost: [
+  k01-quartz/80
+  k04-silver/40
+]

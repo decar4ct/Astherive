@@ -1,0 +1,17 @@
+type: DirectionLiquidBridge
+
+name: Liquid Bridge
+description: Transports liquids over terrain or buildings.
+size: 1
+category: liquid
+squareSprite: false
+requirements: [
+  k01-quartz/5
+]
+
+range: 2
+
+research: d04-liquid-pipe
+researchCost: [
+  k01-quartz/10
+]

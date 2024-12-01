@@ -1,0 +1,18 @@
+type: Duct
+
+name: Item Pipeline
+description: Transport items forwards.
+size: 1
+
+speed: 6
+
+requirements: [
+  k01-quartz/1
+]
+
+bridgeReplacement: c10-item-bridge
+
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/5
+]

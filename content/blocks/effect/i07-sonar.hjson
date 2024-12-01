@@ -1,0 +1,30 @@
+type: Radar
+
+name: Sonar
+description: Reveal further into the fog.
+size: 2
+squareSprite: false
+requirements: [
+  k01-quartz/25
+  k02-magnetite/10
+  k03-silicon-compound/15
+]
+category: effect
+
+consumes: {
+  power: 0.5
+}
+discoveryTime: 120
+fogRadius: 20
+outlineRadius: 0
+rotateSpeed: 0
+glowColor: 8DDE8C
+
+glowScl: 10
+glowMag: 0.6
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/250
+  k02-magnetite/200
+  k03-silicon-compound/75
+]

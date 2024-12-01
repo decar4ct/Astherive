@@ -1,0 +1,17 @@
+type: LiquidRouter
+
+name: Liquid Cell
+description: Distribute liquids.
+size: 1
+category: liquid
+squareSprite: false
+requirements: [
+  k01-quartz/4
+]
+
+liquidPadding: 1
+
+research: d04-liquid-pipe
+researchCost: [
+  k01-quartz/10
+]

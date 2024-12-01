@@ -1,0 +1,54 @@
+type: ConsumeGenerator
+
+name: Turbine
+description: Generate power by rotation using steam. Output pure water as a byproduct
+
+size: 3
+squareSprite: false
+requirements: [
+  k01-quartz/20
+]
+
+powerProduction: 2
+itemDuration: 60
+consumes: {
+  liquids: [
+    l03-steam/0.5
+  ]
+}
+
+category: power
+generateEffect: turbinegenerate
+outputLiquid: l04-pure-water/0.25
+
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/30
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l04-pure-water
+    padding: 2
+    }
+    {
+    type: DrawDeafult
+    }
+    {
+    type: DrawBlurSpin
+    suffix: -rotator
+    rotateSpeed: 8
+    }
+    {
+    type: DrawRegion
+    suffix: -top
+    }
+  ]
+}

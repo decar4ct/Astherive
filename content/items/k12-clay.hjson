@@ -1,0 +1,11 @@
+type: Item
+
+name: Clay
+description: Uses in material processing.
+
+color: 81624BFF
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]

@@ -1,0 +1,84 @@
+type: legs
+
+name: Rex
+description: Ground drone that is capable building structures.
+
+speed: 1
+accel: 0.1
+drag: 0.1
+health: 100
+hitSize: 6
+iemCapacity: 30
+engineOffset: 6
+faceTarget: true
+outlineColor: 353D35
+
+mineTier: 2
+mineWalls: true
+mineRange: 80
+mineSpeed: 6.5
+buildRange: 230
+buildSpeed: 0.75
+
+legStraightness: 0.2
+legContinuousMove: true
+lockLegBase: true
+legGroupSize: 2
+legCount: 4
+allowLegStep: false
+legExtension: -2
+legLength: 13
+legSpeed: 0.2
+legForwardScl: 0.7
+legMoveSpace: 1.3
+hovering: true
+
+fogRadius: 5
+
+weapons: [
+  {
+    name: ma01-rex-weapon
+    x: 5
+    y: 0.2
+    top: false
+    mirror: true
+    alternate: true
+    reload: 60
+    recoil: 1
+    inaccuracy: 7
+    shootSound: cannon
+    shoot: {
+      shots: 2
+      shotDelay: 5
+    }
+    bullet: {
+      width: 6
+      height: 12
+      speed: 5
+      lifetime: 28
+      damage: 12
+      buildingDamageMultiplier: 0.2
+      trailLength: 8
+      trailWidth: 2
+      fragRandomSpread: 0
+      fragOnHit: true
+      fragSpread: 60
+      fragBullets: 3
+      fragBullet: {
+        type: BasicBulletType
+        width: 3
+        height: 7
+        lifetime: 10
+        speed: 3.5
+        damage: 4
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 3
+        buildingDamageMultiplier: 0.2
+        hitSize: 4
+        trailLength: 4
+        trailWidth: 1
+      }
+    }
+  }
+ ] 

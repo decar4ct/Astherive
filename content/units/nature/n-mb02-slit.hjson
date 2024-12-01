@@ -1,0 +1,38 @@
+type: crawl
+
+name: Slit
+description: A fast lil thriver.
+
+drag: 0.1
+speed: 1.2
+rotateSpeed: 2
+outlineColor: 302121FF
+omniMovement: false
+targetAir: false
+drawBody: false
+
+accel: 0.08
+health: 120
+hitSize: 8
+drawCell: false
+engineSize: 0
+itemCapacity: 0
+
+segments: 3
+crushDamage: 0.5
+segmentScl: 4
+segmentPhase: 5
+segmentMag: 0.5
+
+controller: HugAI
+
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: l02-biocyte
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: l02-biocyte
+  }
+]

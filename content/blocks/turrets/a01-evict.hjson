@@ -1,0 +1,80 @@
+type: ItemTurret
+name: Evict
+description: A pressure-driven turret that launch quartz shrapnel at enemy.
+size: 2
+category: turret
+requirements: [
+  k01-quartz/60
+  k02-magnetite/40
+]
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/15
+  k02-magnetite/10
+]
+
+shootSound: shootAltLong
+consumes: {
+  liquid: l03-steam/0.083333333
+}
+outlineColor: 333332FF
+targetAir: false
+targetGround: true
+reload: 60
+range: 180
+inaccuracy: 10
+shootCone: 2
+rotateSpeed: 2
+fogRadiusMultiplier: 0
+
+minWarmup: 0.6
+shootWarmupSpeed: 0.07
+maxAmmo: 1
+
+shootY: 0
+shoot: {
+  shots: 3
+  shotDelay: 0
+  firstShotDelay: 30
+}
+
+ammoTypes: {
+  k01-quartz: {
+    type: BasicBulletType
+    width: 4
+    height: 4
+    shrinkX: 0.3
+    speed: 7
+    lifetime: 26
+    damage: 10
+    trailLength: 6
+    trailWidth: 1
+    ammoMultiplier: 1
+    shootEffect: shootBigColor
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletColor
+    frontColor: D1CFEBFF
+    backColor: 9D9BBEFF
+    hitColor: 9D9BBEFF
+    trailColor: 9D9BBEFF
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: quartz-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -shell
+      mirror: true
+      under: false
+      outline: true
+      progress: charge
+      heatProgress: warmup
+      moveX: 2
+      moveY: 0
+      moveRot: 0
+    }
+  ]
+}

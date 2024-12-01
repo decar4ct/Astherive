@@ -1,0 +1,16 @@
+type: Router
+
+name: Splitter
+description: Distribute items evenly.
+size: 1
+
+speed: 6
+
+requirements: [
+  k01-quartz/3
+]
+
+research: c01-item-pipeline
+researchCost: [
+  k01-quartz/25
+]

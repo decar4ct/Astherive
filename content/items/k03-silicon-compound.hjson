@@ -1,0 +1,17 @@
+type: Item
+
+name: Silicon Compound
+description: Used in advanced buildings.
+
+color: 484947
+hardness: 4
+cost: 1.1
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k11-carbon
+
+alwaysUnlocked: false

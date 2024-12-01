@@ -1,0 +1,119 @@
+type: flying
+
+name: "[red]defy[]"
+description: "[red]it will consume your soul.[]"
+flying: true
+hitSize: 50
+singleTarget: true
+health: 999999
+speed: 5
+accel: 0.004
+drag: 0.002
+rotateSpeed: 0.3
+drawCell: false
+
+weapons: [
+  {
+    name: annihlate
+    showStatSprite: false
+    x: 0
+    y: 0
+    shootY: 0
+    mirror: false
+    top: false
+    reload: 1
+    rotate: true
+    rotateSpeed: 10
+    shootCone: 180
+    shootSound: blaster
+    inaccuracy: 0
+    shoot: {
+      shots: 20
+      shotDelay: 0
+    }
+    bullet: {
+      type: LightningBulletType
+      damage: 999999
+      lightningColor: FF938BFF
+      lightningLength: 50
+      lightningLengthRand: 10
+    }
+  }
+]
+
+parts: [
+  {
+    type: HaloPart
+    rotateSpeed: 0
+    tri: true
+    shapes: 6
+    triLength: 8
+    haloRadius: 30
+    haloRotateSpeed: -0.4
+    color: FF938BFF
+    haloRotation: 180
+    shapeRotation: 180
+    radius: 60
+    layer: 110
+    followRotation: false
+  }
+  {
+    //big triangle
+    type: ShapePart
+    rotateSpeed: 0.5
+    sides: 3
+    hollow: true
+    color: FF938BFF
+    stroke: 5
+    radius: 50
+    layer: 110
+    followRotation: false
+  }
+  {
+    //big triangle
+    type: ShapePart
+    rotateSpeed: -0.3
+    sides: 3
+    hollow: true
+    color: FF938BFF
+    stroke: 5
+    radius: 50
+    layer: 110
+    followRotation: false
+  }
+  {
+    //BIG triangle
+    type: ShapePart
+    rotateSpeed: -0.1
+    sides: 3
+    hollow: true
+    color: FF938BFF
+    stroke: 4
+    radius: 80
+    layer: 110
+    followRotation: false
+  }
+  {
+    //black circle
+    type: ShapePart
+    rotateSpeed: -9
+    circle: true
+    hollow: false
+    color: 000000FF
+    stroke: 2
+    radius: 22
+    followRotation: false
+  }
+  {
+    //circle
+    type: ShapePart
+    rotateSpeed: 3
+    circle: true
+    hollow: true
+    color: FF938BFF
+    stroke: 10
+    radius: 22
+    layer: 110
+    followRotation: false
+  }
+]

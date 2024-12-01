@@ -1,0 +1,12 @@
+type: Item
+
+name: Ceramic
+description: Uses in pressure related buildings.
+
+color: 867467F
+cost: 1.2
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]

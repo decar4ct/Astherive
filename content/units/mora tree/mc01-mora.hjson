@@ -1,0 +1,28 @@
+type: flying
+
+name: Mora
+description: Mines nearby ores
+flying: true
+lowAltitude: true
+hitSize: 10
+singleTarget: true
+faceTarget: true
+health: 390
+armor: 3
+speed: 3
+accel: 0.08
+drag: 0.03
+rotateSpeed: 4.6
+itemCapacity: 25
+outlineColor: 353D35FF
+
+defaultCommand: mine
+mineItems: [
+  k01-quartz
+]
+mineTier: 2
+mineWalls: true
+mineRange: 60
+mineSpeed: 9
+
+research: i01-core-fragment

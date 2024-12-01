@@ -1,0 +1,17 @@
+type: Item
+
+name: Quartz
+description: Used in basic buildings.
+
+color: C1C4CB
+hardness: 2
+cost: 0.7
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: i01-core-aeris
+
+alwaysUnlocked: true

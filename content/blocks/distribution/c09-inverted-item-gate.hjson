@@ -1,0 +1,16 @@
+type: OverflowDuct
+
+name: Inverted Item Gate
+description: Inverted version of item gate.
+size: 1
+squareSprite: false
+invert: true
+
+requirements: [
+  k01-quartz/3
+]
+
+research: c08-item-gate
+researchCost: [
+  k01-quartz/40
+]

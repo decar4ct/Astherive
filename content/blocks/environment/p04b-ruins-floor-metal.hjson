@@ -1,0 +1,6 @@
+type: Floor
+
+name: Stripped Ruins Floor
+
+variants: 4
+blendGroup: p04b-ruins-floor-metal

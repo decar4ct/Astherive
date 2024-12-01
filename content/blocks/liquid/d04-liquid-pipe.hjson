@@ -1,0 +1,20 @@
+type: ArmoredConduit
+
+name: Liquid Pipe
+description: Transports liquids forward. Does not accept input from the side.
+size: 1
+category: liquid
+requirements: [
+  k01-quartz/2
+]
+liquidCapacity: 10
+armored: true
+junctionReplacement: d14-liquid-junction
+rotBridgeReplacement: d15-liquid-bridge
+
+botColor: 353D35FF
+
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/5
+]

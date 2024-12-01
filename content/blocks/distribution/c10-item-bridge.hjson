@@ -1,0 +1,21 @@
+type: DuctBridge
+
+name: Item Bridge
+description: Transport items over buildings or terrain.
+size: 1
+squareSprite: false
+
+speed: 5
+range: 2
+itemCapacity: 5
+
+requirements: [
+  k01-quartz/5
+  k02-magnetite/2
+]
+
+research: c04-splitter
+researchCost: [
+  k01-quartz/100
+  k02-magnetite/50
+]

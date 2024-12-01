@@ -1,0 +1,8 @@
+type: StaticWall
+
+name: Carbon Barite Wall
+
+variants: 4
+attributes: {
+  carbon: 1
+}

@@ -1,0 +1,52 @@
+type: flying
+
+name: Iter
+description: Fires low damage laser beam at the enemy.
+flying: true
+lowAltitude: true
+hitSize: 10
+singleTarget: true
+faceTarget: true
+health: 390
+armor: 3
+speed: 2.8
+accel: 0.05
+drag: 0.06
+rotateSpeed: 4.3
+itemCapacity: 30
+outlineColor: 353D35FF
+engineOffset: 6
+
+weapons: [
+  {
+    name: mc02-iter-weapon
+    showStatSprite: false
+    x: 0
+    y: 0
+    shootY: 0
+    mirror: false
+    top: false
+    cooldownTime: 50
+    reload: 70
+    rotate: false
+    chargeSound: lasercharge
+    shootSound: blaster
+    inaccuracy: 0
+    recoil: 1.5
+    bullet: {
+      type: LaserBulletType
+      chargeEffect: lancerLaserCharge
+      length: 90
+      recoil: 1
+      pierceCap: 1
+      lifeTime: 13
+      damage: 50
+    }
+  }
+]
+research: mc01-mors
+
+researchCost: [
+ k01-quartz/800
+ k02-magnetite/500
+]

@@ -1,0 +1,12 @@
+name: "astherive"
+displayName: "Astherive"
+author: "decaract"
+subtitle: "mmmmm planet yeah"
+description:
+'''
+Tropical, oceanic planet. Inhabited by mutated creatures.
+'''
+version: "v1.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false

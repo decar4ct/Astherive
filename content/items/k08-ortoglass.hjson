@@ -1,0 +1,14 @@
+type: Item
+
+name: Ortoglass
+description: Used in liquid related structures.
+
+color: FFFFFF
+cost: 1
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k02-magnetite

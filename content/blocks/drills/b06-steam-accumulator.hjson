@@ -1,0 +1,54 @@
+type: AttributeCrafter
+
+name: Steam Accumulator
+description: Collect steam from vents.
+
+size: 3
+squareSprite: false
+requirements: [
+  k01-quartz/20
+]
+
+outputLiquid: l03-steam/1
+craftEffect: turbinegenerate
+
+attribute: steam
+baseEfficiency: 0
+boostScale: 0.11111111
+displayEfficiency: false
+minEfficiency: 8.999999999
+category: production
+itemCapacity: 0
+liquidCapacity: 60
+
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/10
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawBlurSpin
+    suffix: -rotator
+    rotateSpeed: 8
+    }
+    {
+    type: DrawRegion
+    suffix: -mid
+    }
+    {
+    type: DrawLiquidTile
+    drawLiquid: l03-steam
+    padding: 9
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}

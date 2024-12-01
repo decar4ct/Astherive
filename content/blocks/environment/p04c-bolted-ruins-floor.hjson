@@ -1,0 +1,6 @@
+type: Floor
+
+name: Bolted Ruins Floor
+
+variants: 0
+blendGroup: p04b-ruins-floor-metal

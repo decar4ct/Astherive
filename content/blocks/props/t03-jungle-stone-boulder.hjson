@@ -1,0 +1,5 @@
+type: Prop
+name: Jungle Stone Boulder
+
+variants: 2
+breakSound: rock-crush

@@ -1,0 +1,6 @@
+type: OverlayFloor
+
+name: Quartz
+
+itemDrop: k01-quartz
+wallOre: false

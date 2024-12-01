@@ -1,0 +1,11 @@
+localizedName: Primal
+description: 
+''' 
+Commence the conquest of Elaris. Gather resources, defend, and research new technology.
+''' 
+captureWave: 6
+planet: elaris
+sector: 10
+research: i01-core-aeris
+difficulty: 1
+alwaysUnlocked: true

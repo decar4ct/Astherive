@@ -1,0 +1,6 @@
+type: OverlayFloor
+
+name: Magnetite
+
+itemDrop: k02-magnetite
+wallOre: false

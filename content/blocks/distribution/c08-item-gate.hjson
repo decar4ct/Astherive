@@ -1,0 +1,15 @@
+type: OverflowDuct
+
+name: Item Gate
+description: Let item through. If blocked, output to the side.
+size: 1
+squareSprite: false
+
+requirements: [
+  k01-quartz/3
+]
+
+research: c04-splitter
+researchCost: [
+  k01-quartz/50
+]

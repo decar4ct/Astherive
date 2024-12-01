@@ -1,0 +1,10 @@
+type: SteamVent
+name: Barite Vent
+blendGroup: p05-barite
+parent: p05-barite
+
+effect: ventSteam
+effectColor: 9391B8FF
+attributes: {
+   steam: 1
+}

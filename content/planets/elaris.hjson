@@ -1,0 +1,106 @@
+localizedName: Elaris
+description:
+'''
+Habitable Planet
+'''
+alwaysUnlocked: true
+mesh: [
+  {
+    # water
+    type: NoiseMesh
+    planet: elaris
+    divisions: 5
+    scale: 3
+    mag: 0
+    octaves: 2
+    persistence: 1
+    radius: 1
+    color1: 86B9E2
+    color2: 68A4D6
+  }
+  {
+    # grass
+    type: NoiseMesh
+    planet: elaris
+    seed: 420
+    divisions: 3
+    scale: 1
+    mag: 0.3
+    octaves: 1
+    persistence: 0
+    radius: 0.96
+    color1: 146156
+    color2: 135435
+  }
+  {
+    # grass
+    type: NoiseMesh
+    planet: elaris
+    seed: 69
+    divisions: 3
+    scale: 1
+    mag: 0.5
+    octaves: 1
+    persistence: 0
+    radius: 0.96
+    color1: 146156
+    color2: 135435
+  }
+]
+cloudMesh: [
+ {
+   type: HexSkyMesh
+   planet: elaris
+   speed: 1.21
+   radius: 0.1
+   divisions: 6
+   color: CBCFDC7E
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.6
+  }
+]
+generator: {
+  octaves: 2
+  persistence: 0.58
+  scale: 9
+  mag: 0.79
+  thresh: 1.14
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChange: 0
+}
+sectorSize: 3
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 10
+orbitSpacing: 1
+radius: 1.1
+minZoom: 0.6
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 12837
+bloom: true
+visible: true
+atmosphereColor: 859AE2
+iconColor: 86B9E2
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: i01-core-aeris
+parent: sun
+solarSystem: sun
+launchCandidates: []
+itemWhitelist: [
+  k01-quartz, k02-magnetite, k03-silicon-compound, k04-silver, k08-ortoglass, k11-carbon, k12-clay, k13-ceramic
+]

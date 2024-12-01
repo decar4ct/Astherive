@@ -1,0 +1,5 @@
+type: Prop
+name: Moss Clump
+
+variants: 2
+breakSound: rock-crush

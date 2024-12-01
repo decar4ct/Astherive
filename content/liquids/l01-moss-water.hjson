@@ -1,0 +1,19 @@
+type: Liquid
+
+name: Moss Water
+description: A swampy water dominated by moss and algae.
+
+gas: false
+color: 12705E
+gasColor: 67A990
+barColor: 12705E
+lightColor: 67A990
+
+flammability: 0.1
+temperature: 0.5
+heatCapacity: 0.2
+viscosity: 0.5
+
+coolant: false
+
+research: i01-core-aeris

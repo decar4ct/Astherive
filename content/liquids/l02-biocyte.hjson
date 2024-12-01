@@ -1,0 +1,28 @@
+type: CellLiquid
+
+name: Biocyte
+description: An acidic, biochemical liquid. Can spread endlessly and damage nearby building. Spread quickly through water.
+
+gas: false
+color: 82A467FF
+gasColor: 82A467FF
+barColor: 526B44FF
+lightColor: 82A467FF
+
+capPuddles: false
+colorFrom: 82A467FF
+colorTo: 526B44FF
+cells: 10
+maxSpread: 1
+spreadDamage: 0.2
+moveThroughBlock: true
+spreadTarget: water
+
+flammability: 0
+temperature: 0.6
+heatCapacity: 0.2
+viscosity: 0.3
+
+coolant: false
+
+research: l01-moss-water

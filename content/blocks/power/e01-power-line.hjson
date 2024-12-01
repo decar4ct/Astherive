@@ -1,0 +1,21 @@
+type: BeamNode
+name: Power line
+description: Transfer power in plus shape.
+size: 1
+category: power
+squareSprite: false
+range: 6
+laserWidth: 0.5
+
+requirements: [
+  k01-quartz/2
+]
+
+consumes: {
+  power: 0.1
+}
+
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/8
+]

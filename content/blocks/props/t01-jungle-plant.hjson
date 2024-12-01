@@ -1,0 +1,5 @@
+type: WobbleProp
+name: Jungle Plant
+
+variants: 4
+customShadow: true

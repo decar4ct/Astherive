@@ -1,0 +1,26 @@
+type: WallCrafter
+name: Carbon Extractor
+description: Extract carbon from wall.
+size: 2
+category: production
+research: b01-rotary-drill
+requirements: [
+  k01-quartz/10
+  k02-magnetite/10
+]
+
+consumes: {
+ power: 0.25
+ liquid: {
+    liquid: l04-pure-water
+    amount: 0.083333333
+  }
+}
+
+drillTime: 110
+output: k11-carbon
+attribute: carbon
+ambientSound: drill
+ambientSoundVolume: 0.08
+
+researchCostMultiplier: 0.1

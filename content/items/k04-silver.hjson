@@ -1,0 +1,17 @@
+type: Item
+
+name: Silver
+description: Used as heat conductor and power conductor.
+
+color: BAC6F1
+hardness: 3
+cost: 1.1
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k11-carbon
+
+alwaysUnlocked: false

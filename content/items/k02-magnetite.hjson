@@ -1,0 +1,17 @@
+type: Item
+
+name: Magnetite
+description: Used in basic buildings.
+
+color: 5D655D
+hardness: 3
+cost: 0.9
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+
+research: k01-quartz
+
+alwaysUnlocked: false

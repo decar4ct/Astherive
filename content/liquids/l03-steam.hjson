@@ -1,0 +1,19 @@
+type: Liquid
+
+name: Steam
+description: I can't think of description. Evaporated water, that's it.
+
+gas: true
+color: E4E4E4
+gasColor: E4E4E4
+barColor: FFFFFF
+lightColor: FFFFFF
+
+flammability: 0
+temperature: 0.5
+heatCapacity: 0.2
+viscosity: 0.5
+
+coolant: false
+
+research: i01-core-aeris

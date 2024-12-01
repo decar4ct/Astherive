@@ -1,0 +1,46 @@
+type: crawl
+
+name: Creep
+description: A bulky thriver that carries 2 slits.
+
+drag: 0.1
+speed: 0.8
+rotateSpeed: 1.2
+outlineColor: 302121FF
+omniMovement: false
+targetAir: false
+drawBody: false
+
+accel: 0.06
+health: 220
+armor: 3
+hitSize: 8
+drawCell: false
+engineSize: 0
+itemCapacity: 0
+
+segments: 5
+crushDamage: 2.5
+segmentScl: 6
+segmentPhase: 5
+segmentMag: 1
+segmentRotSpeed: 0.5
+segmentMaxRot: 45
+
+controller: HugAI
+
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: l02-biocyte
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: l02-biocyte
+  }
+  {
+    type: SpawnDeathAbility
+    unit: n-mb02-slit
+    amount: 2
+  }
+]
