@@ -6,17 +6,19 @@ description: yes
 speed: 0
 health: 999999
 armor: 999999
-iemCapacity: 0
+itemCapacity: 0
 engineSize: 0
 drawCell: false
 outlines: false
 useUnitCap: false
 
 hidden: true
+internal: true
 
 targetable: false
 isEnemy: false
 drawMinimap: false
+drawBody: false
 physics: false
 lightRadius: 0
 lightOpacity: 0
