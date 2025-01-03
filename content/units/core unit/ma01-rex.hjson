@@ -33,7 +33,7 @@ legForwardScl: 0.7
 legMoveSpace: 1.3
 hovering: true
 
-fogRadius: 5
+fogRadius: 0
 
 weapons: [
   {
