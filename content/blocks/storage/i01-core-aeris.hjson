@@ -9,6 +9,7 @@ health: 1000
 itemCapacity: 1000
 unitCapModifier: 10
 unitType: ma01-rex
+fogRadius: 55
 
 requirements: [
   k01-quartz/700
