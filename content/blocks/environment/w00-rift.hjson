@@ -1,0 +1,10 @@
+type: SteamVent
+name: Rift
+blendGroup: p00-terratic-floor
+parent: p00a-cracked-terratic-floor
+variants: 2
+
+effect: none
+attributes: {
+  rift: 1
+}

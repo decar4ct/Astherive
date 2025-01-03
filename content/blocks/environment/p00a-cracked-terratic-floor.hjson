@@ -1,0 +1,6 @@
+type: Floor
+
+name: Cracked Terratic Floor
+
+variants: 2
+blendGroup: p00-terratic-floor
