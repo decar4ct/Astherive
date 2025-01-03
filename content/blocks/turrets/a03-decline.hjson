@@ -1,0 +1,95 @@
+type: ItemTurret
+name: Decline
+description: A pressure-driven turret that launch quartz into the air. Require a lot of steam due to the force required to high altitude.
+size: 2
+category: turret
+requirements: [
+  k01-quartz/50
+  k02-magnetite/70
+]
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/100
+  k02-magnetite/250
+]
+
+shootSound: shootAlt
+consumes: {
+  liquid: l03-steam/0.166666666
+}
+outlineColor: 333332FF
+targetAir: true
+targetGround: false
+reload: 70
+range: 150
+inaccuracy: 1
+shootCone: 2
+rotateSpeed: 1.7
+fogRadiusMultiplier: 0
+recoils: 2
+
+minWarmup: 0.8
+shootWarmupSpeed: 0.06
+maxAmmo: 1
+
+shootY: 4
+shoot: {
+  firstShotDelay: 10
+  type: ShootAlternate
+  spread: 11
+}
+
+ammoTypes: {
+  k01-quartz: {
+    type: BasicBulletType
+    width: 8
+    height: 8
+    shrinkX: 0.5
+    speed: 9
+    lifetime: 17
+    damage: 42
+    trailLength: 4
+    trailWidth: 2
+    ammoMultiplier: 1
+    shootEffect: shootBigColor
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletColor
+    frontColor: D1CFEBFF
+    backColor: 9D9BBEFF
+    hitColor: 9D9BBEFF
+    trailColor: 9D9BBEFF
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: quartz-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side-left
+      mirror: false
+      under: true
+      outline: true
+      progress: recoil
+      recoilIndex: 1
+      heatProgress: recoil
+      moveX: 0
+      moveY: -2
+      moveRot: 7
+    }
+    {
+      type: RegionPart
+      suffix: -side-right
+      mirror: false
+      under: true
+      outline: true
+      progress: recoil
+      recoilIndex: 0
+      heatProgress: recoil
+      moveX: 0
+      moveY: -2
+      moveRot: -7
+    }
+  ]
+}
