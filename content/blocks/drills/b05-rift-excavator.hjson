@@ -35,6 +35,15 @@ researchCost: [
   k01-quartz/10
   k02-magnetite/20
 ]
+research: {
+  parent: b01-rotary-drill
+    objectives: [
+    {
+      type: OnSector
+      preset: overgrown-forest
+    }
+  ]
+}
 
 drawer: {
   type: DrawMulti
