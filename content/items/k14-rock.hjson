@@ -1,0 +1,12 @@
+type: Item
+
+name: Rock
+description: Can be cracked to extract the resource inside.
+
+color: 634343
+cost: 0.5
+
+hiddenOnPlanets: [
+serpulo
+erekir
+]
