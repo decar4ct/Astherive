@@ -1,0 +1,65 @@
+type: AttributeCrafter
+
+name: Rift Excavator
+description: Extracts resources from rift. Require steam to operate.
+
+size: 3
+squareSprite: true
+requirements: [
+  k01-quartz/30
+  k02-magnetite/60
+]
+
+consumes: {
+ power: 1
+ liquids: [
+    l03-steam/0.25
+    l04-pure-water/0.083333333
+  ]
+}
+
+outputItem: k14-rock/2
+craftTime: 48
+craftEffect: drillSteam
+attribute: rift
+baseEfficiency: 0
+boostScale: 0.11111111
+displayEfficiency: false
+minEfficiency: 8.999999999
+category: production
+itemCapacity: 10
+liquidCapacity: 30
+
+research: b01-rotary-drill
+researchCost: [
+  k01-quartz/10
+  k02-magnetite/20
+]
+research: {
+  parent: b01-rotary-drill
+    objectives: [
+    {
+      type: OnSector
+      preset: overgrown-forest
+    }
+  ]
+}
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: true
+    rotateSpeed: -1
+    }
+    {
+    type: DrawDefault
+    }
+  ]
+}

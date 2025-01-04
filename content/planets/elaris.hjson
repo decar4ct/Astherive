@@ -1,7 +1,7 @@
 localizedName: Elaris
 description:
 '''
-Habitable Planet
+Habitable planet. Go invade it, its fun.
 '''
 alwaysUnlocked: true
 mesh: [
@@ -102,5 +102,5 @@ parent: sun
 solarSystem: sun
 launchCandidates: []
 itemWhitelist: [
-  k01-quartz, k02-magnetite, k03-silicon-compound, k04-silver, k08-ortoglass, k11-carbon, k12-clay, k13-ceramic
+  k01-quartz, k02-magnetite, k03-silicon-compound, k04-silver, k08-ortoglass, k11-carbon, k12-clay, k13-ceramic, k14-rock 
 ]

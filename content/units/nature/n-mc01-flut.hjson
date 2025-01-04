@@ -1,0 +1,154 @@
+type: flying
+
+name: Flut
+description: Horizon-like aerial thriver that poo biocyte.
+flying: true
+lowAltitude: false
+hitSize: 12
+singleTarget: true
+faceTarget: false
+circleTarget: true
+health: 80
+speed: 2.8
+accel: 0.03
+drag: 0.03
+rotateSpeed: 6
+itemCapacity: 0
+outlineColor: 302121FF
+engineSize: 0
+drawCell: false
+
+weapons: [
+  {
+    x: 0
+    y: 0
+    ignoreRotation: true
+    shootCone: 180
+    reload: 60
+    shootY: 0
+    inaccuracy: 10
+    shootSound: none
+    bullet: {
+      type: BombBulletType
+      sprite: circle-bullet
+      backSprite: circle-bullet-back
+      width: 10
+      height: 14
+      shrinkX: 0.5
+      shrinkY: 0.5
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+      damage: 0
+      splashDamage: 40
+      splashDamageRadius: 40
+      frontColor: 526B44FF
+      backColor: 2D382CFF
+      puddles: 5
+      puddleRange: 5
+      puddleAmount: 25
+      puddleLiquid: l02-biocyte
+    }
+  }
+]
+
+abilities: [
+  {
+    type: LiquidExplodeAbility
+    liquid: l02-biocyte
+  }
+  {
+    type: LiquidRegenAbility
+    liquid: l02-biocyte
+  }
+  {
+    type: MoveEffectAbility
+    minVelocity: 0
+    interval: 5.9
+    rotateEffect: true
+    parentizeEffects: true
+    effect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: SeqEffect
+          layer: 115.1
+          rotWithParent: true
+          effects: [
+             {
+               type: ParticleEffect
+               casingFlip: true
+               lifetime: 3
+               clip: 9999
+               particles: 1
+               cone: 0
+               length: 0
+               interp: sine
+               sizeFrom: 15
+               sizeTo: 15
+               offset: 80
+               region: astherive-n-mc01-flut-wing
+               spin: 10
+            }
+            {
+               type: ParticleEffect
+               casingFlip: true
+               lifetime: 3
+               clip: 9999
+               particles: 1
+               cone: 0
+               length: 0
+               interp: sine
+               sizeFrom: 15
+               sizeTo: 15
+               offset: 110
+               region: astherive-n-mc01-flut-wing
+               spin: -10
+            }
+          ]
+       }
+       {
+          type: SeqEffect
+          layer: 115.1
+          rotWithParent: true
+          effects: [
+             {
+               type: ParticleEffect
+               casingFlip: true
+               lifetime: 3
+               clip: 9999
+               particles: 1
+               cone: 0
+               length: 0
+               interp: sine
+               sizeFrom: 15
+               sizeTo: 15
+               offset: -80
+               offsetX: 2
+               offsetY: 0
+               region: astherive-n-mc01-flut-wing
+               spin: -10
+            }
+            {
+               type: ParticleEffect
+               casingFlip: true
+               lifetime: 3
+               clip: 9999
+               particles: 1
+               cone: 0
+               length: 0
+               interp: sine
+               sizeFrom: 15
+               sizeTo: 15
+               offset: -110
+               offsetX: 2
+               offsetY: 0
+               region: astherive-n-mc01-flut-wing
+               spin: 10
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

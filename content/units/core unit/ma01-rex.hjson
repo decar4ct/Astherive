@@ -3,7 +3,7 @@ type: legs
 name: Rex
 description: Ground drone that is capable building structures.
 
-speed: 1
+speed: 1.2
 accel: 0.1
 drag: 0.1
 health: 100
@@ -33,7 +33,7 @@ legForwardScl: 0.7
 legMoveSpace: 1.3
 hovering: true
 
-fogRadius: 5
+fogRadius: 0
 
 weapons: [
   {
@@ -56,7 +56,7 @@ weapons: [
       height: 12
       speed: 5
       lifetime: 28
-      damage: 12
+      damage: 4
       buildingDamageMultiplier: 0.2
       trailLength: 8
       trailWidth: 2
@@ -70,7 +70,7 @@ weapons: [
         height: 7
         lifetime: 10
         speed: 3.5
-        damage: 4
+        damage: 1
         pierce: true
         pierceBuilding: true
         pierceCap: 3

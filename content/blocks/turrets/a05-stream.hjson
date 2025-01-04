@@ -1,0 +1,71 @@
+type: ContinuousLiquidTurret
+name: Stream
+description: Releases steam at high pressure continously to knockback the enemy and slow them down. Require power for pump.
+size: 2
+category: turret
+requirements: [
+  k01-quartz/60
+  k02-magnetite/60
+  k11-carbon/30
+]
+research: i01-core-aeris
+researchCost: [
+  k01-quartz/200
+  k02-magnetite/200
+  k11-carbon/100
+]
+consumes: {
+  power: 0.5
+}
+shootSound: blaster
+loopSound: torch
+outlineColor: 333332FF
+targetAir: true
+targetGround: true
+range: 150
+shootCone: 9
+rotateSpeed: 3
+fogRadiusMultiplier: 0
+liquidConsumed: 0.166666666
+
+minWarmup: 0.1
+shootWarmupSpeed: 0.03
+
+shootY: 3
+
+ammoTypes: {
+  l03-steam: {
+    type: ContinuousFlameBulletType
+    damage: 1
+    length: 150
+    width: 2.5
+    lightStroke: 100
+    knockback: 0.2
+    pierceCap: 10
+    colors: [9D9BBEFF,9D9BBEFF,D1CFEBFF,D1CFEBFF,FFFFFFFF]
+    flareColor: 9D9BBEFF
+    lightColor: FFFFFFFF
+    hitColor: FFFFFFFF
+    status: astherive-x01-confused
+    statusDuration: 10
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: quartz-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -shell
+      mirror: true
+      under: false
+      outline: true
+      progress: warmup
+      heatProgress: recoil
+      moveX: -1
+      moveY: -2
+      moveRot: -7
+    }
+  ]
+}
