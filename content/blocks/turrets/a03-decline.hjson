@@ -7,11 +7,20 @@ requirements: [
   k01-quartz/50
   k02-magnetite/70
 ]
-research: i01-core-aeris
+research: a01-evict
 researchCost: [
   k01-quartz/100
   k02-magnetite/250
 ]
+research: {
+  parent: a01-evict
+    objectives: [
+    {
+      type: OnSector
+      preset: overgrown-forest
+    }
+  ]
+}
 
 shootSound: shootAlt
 consumes: {
