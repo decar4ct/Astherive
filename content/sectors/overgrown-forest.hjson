@@ -1,0 +1,12 @@
+localizedName: Overgrown Forest
+description: 
+''' 
+A densely packed forest which make ground logistic difficult.
+
+The thriver seem to have adapted and they are now flying in the air.
+''' 
+captureWave: 5
+planet: elaris
+sector: 13
+research: primal
+difficulty: 1
