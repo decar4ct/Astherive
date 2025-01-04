@@ -6,8 +6,8 @@ description: Extracts resources from rift. Require steam to operate.
 size: 3
 squareSprite: true
 requirements: [
-  k01-quartz/50
-  k02-magnetite/120
+  k01-quartz/30
+  k02-magnetite/60
 ]
 
 consumes: {
@@ -30,10 +30,10 @@ category: production
 itemCapacity: 10
 liquidCapacity: 30
 
-research: i01-core-aeris
+research: b01-rotary-drill
 researchCost: [
-  k01-quartz/100
-  k02-magnetite/250
+  k01-quartz/10
+  k02-magnetite/20
 ]
 
 drawer: {
