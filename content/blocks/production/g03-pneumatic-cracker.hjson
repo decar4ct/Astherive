@@ -8,11 +8,20 @@ requirements: [
   k01-quartz/80
   k02-magnetite/150
 ]
-research: i01-core-aeris
+research: b05-rift-excavator
 researchCost: [
   k01-quartz/10
   k02-magnetite/30
 ]
+research: {
+  parent: b05-rift-excavator
+    objectives: [
+    {
+      type: OnSector
+      preset: overgrown-forest
+    }
+  ]
+}
 
 outputItems: [
 k01-quartz/5
