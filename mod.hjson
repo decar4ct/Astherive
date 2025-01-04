@@ -8,6 +8,8 @@ description:
 Tropical, oceanic planet. Inhabited by mutated creatures.
 
 Currently in very early development.
+
+[accent]Please use the install button instead of the releases :$
 '''
 version: "v1.0"
 minGameVersion: "146"
