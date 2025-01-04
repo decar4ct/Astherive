@@ -3,7 +3,7 @@ type: legs
 name: Rex
 description: Ground drone that is capable building structures.
 
-speed: 1
+speed: 1.2
 accel: 0.1
 drag: 0.1
 health: 100
