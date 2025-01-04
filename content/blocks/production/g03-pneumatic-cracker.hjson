@@ -11,9 +11,9 @@ requirements: [
 ]
 research: i01-core-aeris
 researchCost: [
-  k01-quartz/150
-  k02-magnetite/300
-  k11-carbon/200
+  k01-quartz/10
+  k02-magnetite/30
+  k11-carbon/20
 ]
 
 outputItems: [
