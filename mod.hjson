@@ -3,7 +3,7 @@ repo: "decar4ct/Astherive"
 displayName: "Astherive"
 author: "decaract"
 subtitle: "mmmmm planet yeah"
-description: "Tropical, oceanic planet. Inhabited by mutated creatures.\nCurrently in very early development.\n\n[accent]Latest version v1.52 stable."
+description: "Tropical, oceanic planet. Inhabited by mutated creatures.\nCurrently in very early development.\n\n[[accent]v1.52 build 4 - stable.]"
 version: "v1.0"
 minGameVersion: "146"
 dependencies: [ ]
