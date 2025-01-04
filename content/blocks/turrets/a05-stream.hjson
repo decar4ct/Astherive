@@ -8,12 +8,21 @@ requirements: [
   k02-magnetite/60
   k11-carbon/30
 ]
-research: i01-core-aeris
+research: a01-evict
 researchCost: [
   k01-quartz/200
   k02-magnetite/200
   k11-carbon/100
 ]
+research: {
+  parent: a01-evict
+    objectives: [
+    {
+      type: OnSector
+      preset: overgrown-forest
+    }
+  ]
+}
 consumes: {
   power: 0.5
 }
