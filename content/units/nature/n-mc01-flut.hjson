@@ -1,7 +1,7 @@
 type: flying
 
 name: Flut
-description: no
+description: Horizon-like aerial thriver that poo biocyte.
 flying: true
 lowAltitude: false
 hitSize: 12
