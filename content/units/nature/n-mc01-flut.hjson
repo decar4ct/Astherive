@@ -8,7 +8,7 @@ hitSize: 12
 singleTarget: true
 faceTarget: false
 circleTarget: true
-health: 80
+health: 120
 speed: 2.8
 accel: 0.03
 drag: 0.03
