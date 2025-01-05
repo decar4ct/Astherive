@@ -6,7 +6,7 @@ size: 4
 squareSprite: false
 
 health: 1000
-itemCapacity: 1000
+itemCapacity: 2000
 unitCapModifier: 10
 unitType: ma01-rex
 fogRadius: 55

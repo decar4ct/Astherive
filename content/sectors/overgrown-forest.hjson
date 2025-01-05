@@ -8,5 +8,13 @@ The thriver seem to have adapted and they are now flying in the air.
 captureWave: 5
 planet: elaris
 sector: 13
-research: primal
+research: {
+  parent: "primal"
+    objectives: [
+      {
+        type: SectorComplete
+        preset: "primal"
+      }
+    ]
+}
 difficulty: 1
